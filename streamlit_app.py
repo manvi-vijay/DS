@@ -2,6 +2,7 @@
 HealthTech Risk Prediction Web Application
 Interactive Streamlit app for cardiovascular disease risk assessment
 """
+# -*- coding: utf-8 -*-
 
 import streamlit as st
 import pandas as pd
