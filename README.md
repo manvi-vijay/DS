@@ -124,3 +124,29 @@ Using the Heart Disease UCI dataset with the following features:
 - Data visualization and storytelling
 - Web application development
 - Version control with Git
+
+# Quick Start
+bash
+git clone https://github.com/manvi-vijay/DS.git
+cd DS
+pip install -r requirements.txt
+jupyter notebook
+
+# Usage
+python
+from src.model import DataScienceModel
+from src.data_processing import load_data
+
+# Load data and train model
+data = load_data('data/raw/dataset.csv')
+model = DataScienceModel()
+model.fit(data)
+predictions = model.predict(new_data)
+
+# Results
+- Best Model: Random Forest
+- Accuracy: 92%
+- Key Insight: Feature X is most important predictor
+
+# Author
+Manvi Vijay - [GitHub](https://github.com/manvi-vijay)
